@@ -17,6 +17,7 @@
   --color-border-list: #eeeeee;
   --background-color-btn: #188ce8;
   --color-border: #ececec;
+  --social-color: #afb1b8;
 }
 html {
   box-sizing: border-box;
@@ -302,6 +303,16 @@ h2 {
 }
 .about:last-child {
   margin-right: 0;
+}
+.social-item {
+  fill: var(--social-color);
+}
+.social-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 0;
 }
 /* Footer */
 .footer {
