@@ -307,6 +307,12 @@ h2 {
 .social-item {
   fill: var(--social-color);
 }
+.social-item:hover {
+  fill: var(--active-color);
+}
+.social-item:focus {
+  fill: var(--active-color);
+}
 .social-list {
   list-style: none;
   display: flex;
