@@ -585,7 +585,7 @@ fill: var(--active-color);
   list-style: none;
   display: flex;
   gap: 10px;
-  justify-content: center;
+ 
 }
 
 .social-icon-footer {
