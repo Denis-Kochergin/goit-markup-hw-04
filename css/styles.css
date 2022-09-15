@@ -55,7 +55,7 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0, auto;
+  margin: 0 auto;
 }
 
 .img {
@@ -410,7 +410,8 @@ h2 {
   background: var(--primary-white-color);
   align-items: center;
   justify-content: center;
-  fill: var(--social-color);}
+  fill: var(--social-color);
+}
 
 .social-link:hover {
   background-color: var(--active-color);
@@ -434,9 +435,11 @@ h2 {
   list-style: none;
   justify-content: center;
   align-items: center;
-
+  margin: 0;
+  padding: 0;
 }
-.link-client-icon{
+
+.link-client-icon {
   width: 170px;
   height: 92px;
   display: flex;
@@ -449,13 +452,13 @@ h2 {
 }
 
 .link-client-icon:focus {
-border-color: var(--active-color);
-fill: var(--active-color);
+  border-color: var(--active-color);
+  fill: var(--active-color);
 }
 
 .link-client-icon:hover {
- border-color: var(--active-color);
- fill: var(--active-color);
+  border-color: var(--active-color);
+  fill: var(--active-color);
 }
 
 .section-client {
@@ -464,7 +467,8 @@ fill: var(--active-color);
 }
 
 /* Footer */
-.container-icon-footer {
+.container-footer {
+  display: flex;
 }
 
 
@@ -474,8 +478,13 @@ fill: var(--active-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-social{
 
+.footer-contact-box {
+  margin-right: 70px;
+}
+
+.footer-social-box {
+  margin: 0;
 }
 
 .logo-footer {
@@ -550,12 +559,11 @@ fill: var(--active-color);
 
 .accession {
   font-family: "Roboto";
-  font-style: normal; 
-  padding-top:75px;
+  font-style: normal;
+  margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-
 }
 
 .social-link-footer {
@@ -582,7 +590,7 @@ fill: var(--active-color);
   list-style: none;
   display: flex;
   gap: 10px;
- 
+
 }
 
 .social-icon-footer {
